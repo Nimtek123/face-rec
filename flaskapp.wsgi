@@ -2,7 +2,7 @@
 import sys
 import logging
 logging.basicConfig(stream=sys.stderr)
-sys.path.insert(0,"/var/www/FaceRec/")
+sys.path.insert(0,"./face-rec")
 
 from main import app as application
 application.secret_key = '123456789'
