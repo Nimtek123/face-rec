@@ -136,4 +136,4 @@ def face_rec():
 	# cv2.waitKey(0)
 
 if __name__ == "__main__":
-	app.run(debug=True)
+	app.run(host='0.0.0.0')
